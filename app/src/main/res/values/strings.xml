@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Pry_Tienda_Virtual</string>
+    <string name="txtTitulo">Lista de Productos</string>
+    <string name="txtProductos">Producto</string>
+    <string name="txtPrecio">Precio $</string>
+
+    <string name="txtdetallePrecio">Precio $</string>
+    <string name="txtdetalleProducto">Producto</string>
+    <string name="txtdetalleDescripcion">Descripción</string>
+    <string name="txtdetalleDescripcionMas">Descripción detallada</string>
+    
+    
+    
 </resources>
