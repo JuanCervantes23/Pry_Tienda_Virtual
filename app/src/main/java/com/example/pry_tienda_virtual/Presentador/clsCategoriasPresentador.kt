@@ -2,11 +2,16 @@ package com.example.pry_tienda_virtual.Presentador
 
 import com.example.pry_tienda_virtual.Modelo.clsCategoriasModelo
 import com.example.pry_tienda_virtual.Modelo.dataCategorias
+import com.example.pry_tienda_virtual.Vista.MainActivity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
-class clsCategoriasPresentador {
+// Reemplaza esto:
+// class clsCategoriasPresentador {
+
+// Por esto (asegúrate de importar MainActivity si el editor te lo pide):
+class clsCategoriasPresentador(private val vista: MainActivity) {
     private val modelo = clsCategoriasModelo()
     private var listaCategorias: List<dataCategorias> = emptyList()
 
